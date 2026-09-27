@@ -17,7 +17,6 @@ export default function DirectoryScreen() {
       <View style={styles.headerContainer}>
         <Text style={styles.headerTitle}>Product Directory</Text>
         
-        {/* TextInput Search Bar */}
         <TextInput
           style={styles.searchBar}
           placeholder="Search products by name..."
@@ -27,7 +26,6 @@ export default function DirectoryScreen() {
         />
       </View>
 
-      {/* FlatList with Empty State */}
       <FlatList
         data={filteredProducts}
         keyExtractor={(item) => item.id}
