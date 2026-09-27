@@ -1,0 +1,42 @@
+export const PRODUCTS = [
+  {
+    id: '1',
+    name: 'Iphone18 Pro',
+    image: 'https://cdn.gadgetpilipinas.net/wp-content/uploads/2026/04/iPhone-18-Pro-in-Deep-Red--768x432.webp',
+    category: 'Phone',
+    price: '₱94,990',
+    description: 'New Iphone',
+  },
+  {
+    id: '2',
+    name: 'PAOLO 3-SEATER SOFA',
+    image: 'https://blimsfurniture.com.ph/cdn/shop/files/PAOLO3SEATERSOFA_DK.GREY.png?v=1731478338',
+    category: 'Furniture',
+    price: '₱51,960',
+    description: 'A contemporary plush comfort leather sofa with padded rolled armrest on tapered metal legs.',
+  },
+  {
+    id: '3',
+    name: 'Anker PowerConf H500 Bluetooth Dual-Ear Headset with Microphone',
+    image: 'https://anker.ph/cdn/shop/products/A3511012_77cada2a-66f5-466f-932e-93c356bb5754.jpg?v=1670900672',
+    category: 'Electronics',
+    price: '₱8,995',
+    description: 'Soundproof meetings with VoiceShield™ noise reduction.',
+  },
+  {
+    id: '4',
+    name: 'Aquaflask',
+    image: 'https://dynamic.zacdn.com/WRXDPyeVb8EoTxBxgJsqqMJM8OE=/filters:quality(70):format(webp)/https://static-ph.zacdn.com/p/aquaflask-8679-9740943-2.jpg',
+    category: 'Accessories',
+    price: '₱700',
+    description: '22oz Wide Mouth Water Bottle Graphite',
+  },
+  {
+    id: '5',
+    name: 'Nike',
+    image: 'https://dynamic.zacdn.com/YesFKGGPDcVY5lk2jPy9pGcRhuw=/filters:quality(70):format(webp)/https://static-ph.zacdn.com/p/nike-6681-1177514-2.jpg',
+    category: 'Accessories',
+    price: '₱1,795.50',
+    description: 'Training Duffel Bag (24L)',
+  },
+];
